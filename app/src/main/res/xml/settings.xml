@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Settings" >
+        <ListPreference
+            android:key="todoItemColor"
+            android:title="Item Color"
+            android:summary="Choose a color for your items"
+            android:entries="@array/itemColors"
+            android:entryValues="@array/itemColorValues"
+            android:defaultValue="yellow"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
